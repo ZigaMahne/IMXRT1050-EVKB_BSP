@@ -10,11 +10,11 @@ layer:
    connections:
      - connect: IMXRT1050-EVKB
        consumes:
-        - RTOS2
+        - CMSIS-RTOS2
        provides:
-         - C_ETH:  0
-         - C_MCI:  0
-         - A_UART: 3
+         - CMSIS-Driver_ETH: 0
+         - CMSIS-Driver_MCI: 0
+         - ARDUINO_UNO_UART: 3
          - C_VIO
          - STDOUT
          - STDIN
